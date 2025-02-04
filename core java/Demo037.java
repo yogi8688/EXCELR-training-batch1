@@ -1,4 +1,7 @@
+package Core_java;
+
 import java.util.Scanner;
+
 public class Demo037 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,15 +14,15 @@ public class Demo037 {
         System.out.println("Enter Fourth number: ");
         int num4 = sc.nextInt();
 
-        if((num1>num2) && (num1>num3) && (num1>num4)){
-            System.out.println("The biggest number is: "+num1);
-        }else if((num2>num1) && (num2>num3) && (num2>num4)){
-            System.out.println("The biggest number is: "+num2);
-        }else if((num3>num1) && (num3>num2) && (num3>num4)){
-            System.out.println("The biggest number is: "+num3);
-        }else if((num4>num1) && (num4>num2) && (num4>num3)){
-            System.out.println("The biggest number is: "+num4);
-        }else{
+        if ((num1 > num2) && (num1 > num3) && (num1 > num4)) {
+            System.out.println("The biggest number is: " + num1);
+        } else if ((num2 > num1) && (num2 > num3) && (num2 > num4)) {
+            System.out.println("The biggest number is: " + num2);
+        } else if ((num3 > num1) && (num3 > num2) && (num3 > num4)) {
+            System.out.println("The biggest number is: " + num3);
+        } else if ((num4 > num1) && (num4 > num2) && (num4 > num3)) {
+            System.out.println("The biggest number is: " + num4);
+        } else {
             System.out.println("All are equal");
         }
     }
